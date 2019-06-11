@@ -5,7 +5,7 @@ public class Palindrom
 {
     public static void main(String [] args) {
 
-        int n, r, var = 0;
+        int n, r, var = 0;//dati nume sugestive variabilelo
         int m ;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");

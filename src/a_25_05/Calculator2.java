@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculator2 {
 
-    public static void main (String[]args){
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduceti primul numar: ");
@@ -16,23 +16,25 @@ public class Calculator2 {
 
         boolean loop = true;
 
-        while (loop){
-        switch (operation){
-            case "+":
-                System.out.println (n1+ "+" + n2 + "=" + (n1+n2));
-                break;
-            case "-":
-                System.out.println (n1+ "-" + n2 + "=" + (n1-n2));
-                break;
-            case "*":
-                System.out.println (n1+ "*" + n2 + "=" + (n1*n2));
-                break;
-            case "/":
-                System.out.println (n1+ "/" + n2 + "=" + (n1/n2));
-                break;
-        }
+        while (loop) {
+            switch (operation) {
+                case "+":
+                    System.out.println(n1 + "+" + n2 + "=" + (n1 + n2));
+                    break;
+                case "-":
+                    System.out.println(n1 + "-" + n2 + "=" + (n1 - n2));
+                    break;
+                case "*":
+                    System.out.println(n1 + "*" + n2 + "=" + (n1 * n2));
+                    break;
+                case "/":
+                    System.out.println(n1 + "/" + n2 + "=" + (n1 / n2));
+                    break;
+                case "exit":
+                    loop = false;
+            }
 
-    }
+        }
 
     }
 }
