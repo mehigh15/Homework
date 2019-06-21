@@ -4,21 +4,21 @@ import java.util.Scanner;
 public class MaxDigit {
     public static void main(String[] args)
     {
-        int r, n, var = 0;
+        int digit, inputNumber, max = 0; //dati nume sugestive variabilelor
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a Number :");
-        n = sc.nextInt();
+        inputNumber = sc.nextInt();
 
-        while (n > 0) {
-            r = n % 10;
-            if (var < r) {
-                var = r;
+        while (inputNumber > 0) {
+            digit = inputNumber % 10;
+            if (max < digit) {
+                max = digit;
             }
-            n = n / 10;
+            inputNumber = inputNumber / 10;
         }
 
-        System.out.println("\nThe Largest Digit is :" + var);
+        System.out.println("\nThe Largest Digit is :" + max);
 
     }
 

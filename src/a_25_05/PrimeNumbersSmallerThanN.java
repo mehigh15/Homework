@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class PrimeNumbersSmallerThanN {
     public static void main(String[] args){
 
-        int n,p;
+        int n,p; //dati nume sugestive variabilelo
         Scanner s = new Scanner (System.in);
         System.out.println("Enter a number:");
         n = s.nextInt();
