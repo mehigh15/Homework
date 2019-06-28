@@ -1,7 +1,5 @@
-package b_01_06;
-
+package b_01_06.Refactor;
 public class Sum {
-
      static void addition(int m, int n) {
         int p=0;
         while (m<n){

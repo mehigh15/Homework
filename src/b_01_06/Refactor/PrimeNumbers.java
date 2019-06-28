@@ -1,4 +1,4 @@
-package b_01_06;
+package b_01_06.Refactor;
 import java.util.Scanner;
 public class PrimeNumbers {
     static void prime(int m){

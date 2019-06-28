@@ -1,6 +1,5 @@
-package b_01_06;
+package b_01_06.Refactor;
 import java.util.Scanner;
-
 public class CalculatorR {
 
     static void calculate(int n1, int n2, String operation) {
